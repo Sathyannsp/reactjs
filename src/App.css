@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.items p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: cursive;
+  color: salmon;
+  text-shadow: 2px 2px black;
+}
+
+span {
+  font-size: 2rem;
+  color: salmon;
+}
+
+button {
+  background-color: salmon;
+  color: white;
+  padding: 1.5rem;
+  cursor: pointer;
+  margin-right: 5px;
+  border: none;
+  font-weight: bold;
+}
+button:hover {
+  color: black;
+}
